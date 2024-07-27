@@ -8,7 +8,7 @@ import dashboardPage from "../../page_objects/dashboard.page";
 describe("LOGIN TEST", () => {
   beforeEach(() => {
     cy.visit("/");
-    cy.viewport(1920, 1080);
+    //cy.viewport(1920, 1080);
   });
 
   it("Log in with existing account as an Admin", () => {

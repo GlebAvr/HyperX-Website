@@ -23,3 +23,13 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+// Cypress.Commands.add('handleCookiesPopup', () => {
+//     cy.get('body').then(($body) => {
+//       if ($body.find('#onetrust-group-container').length > 0) {
+//         cy.get('#onetrust-accept-btn-handler"').click(); // Replace with actual selectors
+//       }
+//     });
+//   });
+
+  
